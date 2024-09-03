@@ -26,13 +26,50 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/Generic_Cleanup_Demo:
+    name: Generic_Cleanup_Demo
+    description: ''
+    author: sriniaws07@gmail.com
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2024-09-03 15:39:04'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
 gemContainer:
   languageVersion: '3.10'
   gemLibsVersion: 1.3.4.0
-  gems: {}
+  gems:
+    gems/Encrypt:
+      name: Encrypt
+      category: Transform
+      subCategory: ''
+      description: null
+      author: sriniaws07@gmail.com
+      mode: batch
+      files:
+      - srinivaskchvgmailcomteam_rainforestbiz/gems/Encrypt.py
+      gemType: ComponentGem
+      dependencies: []
+      createdAt: '2024-09-03 16:12:07'
+    gems/SrinivasGem:
+      name: SrinivasGem
+      category: Transform
+      subCategory: ''
+      description: null
+      author: sriniaws07@gmail.com
+      mode: batch
+      files:
+      - srinivaskchvgmailcomteam_rainforestbiz/gems/SrinivasGem.py
+      gemType: ComponentGem
+      dependencies: []
+      createdAt: '2024-09-03 16:13:39'
   dependencies: null
 functions:
   author: null
