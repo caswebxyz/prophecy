@@ -10,20 +10,7 @@ buildSystemDetails:
   buildSystem: wheel
   author: null
   createdAt: '2024-08-10 01:01:13'
-pipelines:
-  pipelines/Generic_Cleanup_Demo:
-    name: Generic_Cleanup_Demo
-    description: ''
-    author: sriniaws07@gmail.com
-    mode: batch
-    artefactID: ''
-    language: python
-    createdAt: '2024-09-03 15:39:04'
-    datasets:
-      inputs: []
-      outputs: []
-    subgraphs: []
-    dependencies: {}
+pipelines: {}
 datasets: {}
 templates: {}
 jobs: {}
