@@ -11,21 +11,6 @@ buildSystemDetails:
   author: null
   createdAt: '2024-08-10 01:01:13'
 pipelines:
-  pipelines/enrich_accounts:
-    name: enrich_accounts
-    description: ''
-    author: srinivaskchv@gmail.com
-    mode: batch
-    artefactID: ''
-    language: python
-    createdAt: '2024-08-10 01:01:13'
-    datasets:
-      inputs:
-      - gitUri=http://gitserver:3000/wvwrv9bI_team_5938/wvwrv9bI_project_13587.git&subPath=&tag=course_lab_sources/0.0.3&projectSubscriptionProjectId=13587&path=datasets/salesforce-Account
-      - gitUri=http://gitserver:3000/wvwrv9bI_team_5938/wvwrv9bI_project_13587.git&subPath=&tag=course_lab_sources/0.0.3&projectSubscriptionProjectId=13587&path=datasets/salesforce-Opportunity
-      outputs: []
-    subgraphs: []
-    dependencies: {}
   pipelines/Generic_Cleanup_Demo:
     name: Generic_Cleanup_Demo
     description: ''
